@@ -14,7 +14,7 @@ To run this dashboard it is advisable to have the latest version of Rstudio and 
 
 There are packages needed to successfully run this dashboard:
  ```sh
-   install.packages(c('rtweet','shiny','shinydashboard','sentimentr','wordcloud','ggplot2','plotly','tm','reactable','magrittr','stringr','lubridate'))
+   install.packages(c('rtweet','shiny','shinydashboard','sentimentr','wordcloud','ggplot2','plotly','tm','reactable','magrittr','stringr','lubridate','dplyr','glue','purrr'))
    ```
 
 ### Authenticate rtweet
