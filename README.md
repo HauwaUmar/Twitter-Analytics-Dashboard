@@ -16,3 +16,14 @@ There are packages needed to successfully run this dashboard:
  ```sh
    install.packages(c('rtweet','shiny','shinydashboard','sentimentr','wordcloud','ggplot2','plotly','tm','reactable','magrittr','stringr','lubridate'))
    ```
+
+### Authenticate rtweet
+To be able to extract tweets for free using r tweet, below is the authentication step to configure and confirm if it was done successfully.
+ ```sh
+  # rtweet authentication
+   auth_setup_default()
+
+  # check if authentication exists
+   auth_has_default()
+   ```
+  Potential users of the package should have a twitter account and login after running the first line of code .
