@@ -20,6 +20,7 @@ There are packages needed to successfully run this dashboard:
 ### Authenticate rtweet
 To be able to extract tweets for free using r tweet, below is the authentication step to configure and confirm if it was done successfully.
  ```sh
+ library (rtweet)
   # rtweet authentication
    auth_setup_default()
 
