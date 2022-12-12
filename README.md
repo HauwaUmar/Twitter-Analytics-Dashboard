@@ -27,3 +27,11 @@ To be able to extract tweets for free using r tweet, below is the authentication
    auth_has_default()
    ```
   Potential users of the package should have a twitter account and login after running the first line of code .
+
+# Running dashboard
+After installing all the dependencies and authenticating your twitter account run the following line of code on R.
+
+ ```sh
+library(shiny)
+runGitHub("Twitter-Analytics-Dashboard", "HauwaUmar")
+ ```
